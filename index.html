@@ -9,10 +9,10 @@
     <div class="container">
         <div class="column-left">
             <div class="grid">
-                    <div class="form first">
+                    <div class="form">
                         <div class="input new-item">
                         <input type="text" placeholder="Назва товару">
-                        <button class="append">Додати</button>
+                        <button data-tooltip="Додати товар" class="append">Додати</button>
                     </div>
                 </div>
                <div class="item-row">
@@ -20,12 +20,12 @@
                         <span class="title ">Помідори</span>
                     </div>
                     <div class="add-buttons">
-                        <button class="minus-button">-</button>
+                        <button class="minus-button ">-</button>
                         <span class="count-label">1</span>
-                        <button class="plus-button">+</button>
+                        <button class="plus-button data-tooltip">+</button>
                     </div>
                     <div class="last-buttons">
-                        <button class="buy-button">Куплено</button>
+                        <button class="buy-button">Придбано</button>
                         <button class="delete-button" title="Видалити">x</button>
                     </div>
             </div>
@@ -39,11 +39,11 @@
                     <button class="plus-button">+</button>
                 </div>
                 <div class="last-buttons">
-                    <button class="buy-button">Куплено</button>
+                    <button class="buy-button">Придбано</button>
                     <button class="delete-button" title="Видалити">x</button>
                 </div>
             </div>
-                <div class="item-row last">
+                <div class="item-row">
                 <div class="title-cell">
                     <span class="title ">Сир</span>
                 </div>
@@ -53,7 +53,7 @@
                     <button class="plus-button">+</button>
                 </div>
                 <div class="last-buttons">
-                    <button class="buy-button">Куплено</button>
+                    <button class="buy-button">Придбано</button>
                     <button class="delete-button" title="Видалити">x</button>
                 </div>
             </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="column-right">
             <div class="grid">
-                <div class="segment first">
+                <div class="segment">
                     <h>Залишилося</h>
                 </div>
                 <div class="segment">
@@ -83,7 +83,9 @@
                 <div class="segment">
                     <h>Куплено</h>
                 </div>
-                <div class="segment last"> </div>
+                
+                <div class="badge"> <div class="label1">Buy list</div> <div class="label2">Made by: <i>Viktor Lezhnev</i></div> </div>
+                <div class="segment"> </div>
             </div>
         </div>
     </div>
